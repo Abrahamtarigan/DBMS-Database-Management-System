@@ -1,6 +1,6 @@
 -- Buat tabel pelanggan
 CREATE TABLE pelanggan (
-    ID_Pelanggan INT AUTO_INCREMENT PRIMARY KEY,
+    id_Pelanggan INT AUTO_INCREMENT PRIMARY KEY,
     nama_Pelanggan VARCHAR(255),
     Kota VARCHAR(255),
     Provinsi VARCHAR(255)
@@ -8,7 +8,7 @@ CREATE TABLE pelanggan (
 
 -- Buat tabel produk
 CREATE TABLE produk (
-    ID_Produk INT AUTO_INCREMENT PRIMARY KEY,
+    id_Produk INT AUTO_INCREMENT PRIMARY KEY,
     nama_Produk VARCHAR(255),
     Kategori VARCHAR(255),
     Harga DECIMAL(10, 2)
